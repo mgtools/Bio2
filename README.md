@@ -5,25 +5,17 @@ A redesigned computational biology course leveraging AI models for problem-solvi
 ## Directory Structure
 
 ```
-├── modules/                          # Course modules organized by topic
-│   ├── 01-sequence-analysis/        # DNA/RNA sequence analysis with AI
-│   ├── 02-protein-structure/        # Protein folding & structure prediction
-│   ├── 03-phylogenetics/            # Evolutionary analysis with AI
-│   └── 04-genomics/                 # Genomic data analysis
-├── assignments/                      # Assignments and projects
+├── ai-tools/                         # AI tools and course guidance
+├── assignments/                      # Assignment templates and projects
+├── datasets/                         # Datasets and data documentation
+├── docs/                             # Project documentation
+├── labs/                             # Hands-on computational biology labs
+├── modules/                          # Course module templates
 ├── notebooks/                        # Jupyter notebooks for interactive learning
-├── datasets/                         # Data files for coursework
-│   ├── sample-data/                 # Pre-processed sample datasets
-│   └── raw/                         # Raw datasets
-├── ai-tools/                         # AI integrations & configurations
-│   ├── llm-prompts/                 # LLM prompts for biology problems
-│   ├── ml-models/                   # ML model configurations
-│   └── integrations/                # API integrations (Claude, GPT, etc.)
-├── utils/                            # Utility scripts and helpers
-├── docs/                             # Documentation
-│   ├── guides/                       # Setup & learning guides
-│   └── api-references/              # API documentation
-├── setup/                            # Configuration & environment setup
+├── readings/                         # Scientific papers and supplementary readings
+├── setup/                            # Dependencies and environment configuration
+├── textbook/                         # Digital textbook and chapter materials
+├── utils/                            # Utility scripts and helper documentation
 └── README.md                         # This file
 ```
 
@@ -49,19 +41,16 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r setup/requirements.txt
 ```
 
-## Course Modules
+## Course Materials
 
-Each module contains:
-- **Lecture notes** - Core concepts and theory
-- **Notebooks** - Interactive Jupyter notebooks with examples
-- **Assignments** - Practical exercises and projects
-- **AI integrations** - Examples using LLMs and ML models
+The repository currently includes:
+- **Labs** - Hands-on exercises, including Python fundamentals with biological data
+- **Notebooks** - Python, protein structure prediction, RNA foundation model, and assessment notebooks
+- **Readings** - Foundational and recent scientific papers, plus supplementary readings
+- **Textbook** - Molecular biology, sequencing, bulk RNA-seq, single-cell, and spatial transcriptomics chapters
+- **Assignments** - Templates for course assignments and projects
 
-### Module Topics
-- **01-Sequence-Analysis**: DNA/RNA analysis with AI-powered pattern recognition
-- **02-Protein-Structure**: Protein structure prediction using AI models
-- **03-Phylogenetics**: Evolutionary analysis and tree building
-- **04-Genomics**: Large-scale genomic data analysis with AI
+See the [textbook status and guide](textbook/STATUS_AND_GUIDE.md) and the [notebooks README](notebooks/README.md) for more detail.
 
 ## Key Features
 
@@ -82,7 +71,7 @@ Each module contains:
 
 ## Contributing
 
-See [docs/guides/CONTRIBUTING.md](docs/guides/CONTRIBUTING.md) for guidelines.
+See [docs/README.md](docs/README.md) for current documentation guidance.
 
 ## License
 
@@ -90,6 +79,8 @@ See [docs/guides/CONTRIBUTING.md](docs/guides/CONTRIBUTING.md) for guidelines.
 
 ## Resources
 
-- [Setup Guide](docs/guides/setup-guide.md)
-- [AI Integration Guide](docs/guides/ai-integration-guide.md)
+- [Setup Guide](setup/README.md)
+- [Textbook](textbook/README.md)
+- [Readings](readings/README.md)
+- [Notebook Collection](notebooks/README.md)
 - [Dataset Documentation](datasets/README.md)
