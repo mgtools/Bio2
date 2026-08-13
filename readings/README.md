@@ -2,12 +2,10 @@
 
 This folder contains reading materials, references, and supplementary documentation for the CB2 course.
 
-# Bioinformatics Fundamentals
+## Bioinformatics Fundamentals
 - a free molecular primer biology textbook (for students who need a bit catch up with biology)
 
-# Scientific papers and articles (foundational)
-
-### Scientific papers and articles (recent breakthroughs) -- for literature presentation by students
+## Scientific papers and articles (recent breakthroughs) -- for literature presentation by students
 #### Paper 1: Protein-templated synthesis of dinucleotide repeat DNA by an antiphage reverse transcriptase
 
 **Link:** [Science paper](https://www.science.org/doi/10.1126/science.aed1656); [commentary](https://www.science.org/content/article/scientists-stunned-fundamentally-new-way-life-produces-dna)
