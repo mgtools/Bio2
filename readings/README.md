@@ -59,8 +59,8 @@ scGPT treats genes and their expression measurements somewhat analogously to tok
 
 #### Paper 9: Protein embedding based alignment (BMC Bioinformatics)
 
-**Link:** To be added
+**Link:** [BMC Bioinformatics paper](https://doi.org/10.1186/s12859-024-05699-5)
 
-**Why pick the paper?** To be added
+**Why pick the paper?** Protein sequence alignment becomes especially difficult when sequences have less than 20–35% pairwise identity, the so-called "twilight zone." This paper introduces PEbA, which uses similarities between protein-language-model embeddings as dynamic-programming match scores instead of traditional substitution matrices. It shows how contextual representations from models such as ProtT5 can improve alignment quality for highly divergent proteins, outperforming BLOSUM-based alignment and other embedding-based methods.
 
 **Last Updated**: 2026-08-13
