@@ -1,27 +1,58 @@
-# Chapter 1: Molecular Biology Fundamentals
+# Chapter 1: Molecular Biology Fundamentals for Computational People
 
 ## Learning Objectives
 
 By the end of this chapter, you should be able to:
-1. Explain the central dogma of molecular biology (DNA → RNA → Protein)
-2. Describe transcriptional regulation and the role of transcription factors
-3. Understand RNA processing and modifications (5' capping, 3' polyadenylation, splicing)
-4. Differentiate between mRNA, rRNA, tRNA, and non-coding RNA species
-5. Connect molecular mechanisms to how transcriptomics experiments measure gene expression
+1. Explain the central dogma as an information processing pipeline: DNA → RNA → Protein
+2. Understand gene regulation as a computational system with inputs (signals) and outputs (expression levels)
+3. Recognize that RNA is the "dataset" you're analyzing in transcriptomics; understand why it's noisy and variable
+4. Know how cells transform molecular signals into data states you can measure
+5. Understand why different cell types have different transcriptomes (like different software running on different machines)
 
 ---
 
-## 1.1 The Central Dogma: DNA → RNA → Protein
+## 1.1 Information Flow in Cells: A Computational Analogy
 
-### Overview
+### The Basic Pipeline
 
-The central dogma of molecular biology describes the flow of genetic information:
+Think of cells as computers running a genetic program:
 
 ```
-DNA (transcription)→ RNA (translation)→ Protein
+┌─────────────────────────────────────────────────────┐
+│         Cell as a Computer System                   │
+├─────────────────────────────────────────────────────┤
+│                                                     │
+│  DNA = Hard drive (permanent storage)              │
+│   ↓                                                 │
+│  RNA = RAM (temporary working memory)              │
+│   ↓                                                 │
+│  Protein = Running process (executes functions)   │
+│                                                     │
+│  Input: Signals (hormones, growth factors, etc.)   │
+│  Output: Gene expression levels (measurable data)  │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 ```
 
-At the heart of transcriptomics lies **RNA**, the intermediate molecule that links genetic information stored in DNA to functional proteins in the cell.
+**Key insight:** Transcriptomics measures RNA (the "working memory"), not DNA (permanent storage) or proteins (the running processes).
+
+### Why RNA Instead of DNA or Proteins?
+
+| Molecule | Stability | Information | Measurement Difficulty |
+|----------|-----------|-------------|----------------------|
+| **DNA** | Very stable; changes rarely | Static (same in all cells) | Hard; mostly constant |
+| **RNA** | Temporary (hours); dynamic | **Varies by cell state** | **Easy to quantify** |
+| **Protein** | Moderately stable | Functional output | Hard; low abundance; post-translational modifications |
+
+**This is why we measure RNA:** It's the sweet spot—dynamic enough to reflect cellular state, but stable enough to measure reliably.
+
+### The Central Dogma: Information Flow
+
+```
+DNA (Blueprint) → RNA (Working copy) → Protein (Function)
+```
+
+In computational terms:
 
 ### DNA Structure and Gene Organization
 
