@@ -1,4 +1,4 @@
-# CBnew: AI-Enhanced Computational Biology Course
+# CB2: AI-Enhanced Computational Biology Course
 
 A redesigned computational biology course leveraging AI models for problem-solving and AI-assisted programming.
 
@@ -39,7 +39,7 @@ A redesigned computational biology course leveraging AI models for problem-solvi
 ```bash
 # Clone the repository
 git clone <repo-url>
-cd CBnew
+cd CB2
 
 # Set up environment (if using virtual environment)
 python -m venv venv
