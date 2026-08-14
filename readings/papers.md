@@ -63,4 +63,22 @@ scGPT treats genes and their expression measurements somewhat analogously to tok
 
 **Why pick the paper?** Protein sequence alignment becomes especially difficult when sequences have less than 20–35% pairwise identity, the so-called "twilight zone." This paper introduces PEbA, which uses similarities between protein-language-model embeddings as dynamic-programming match scores instead of traditional substitution matrices. It shows how contextual representations from models such as ProtT5 can improve alignment quality for highly divergent proteins, outperforming BLOSUM-based alignment and other embedding-based methods.
 
+#### Paper 10: AlphaFold accelerates artificial intelligence powered drug discovery: efficient discovery of a novel CDK20 small molecule inhibitor (Chemical Science)
+
+**Link:** [Chemical Science paper](https://pubs.rsc.org/sc/article/14/6/1443/786890/AlphaFold-accelerates-artificial-intelligence)
+
+**Why pick the paper?** An example of AI in/for heathcare. This makes an excellent follow-up to AlphaFold because it moves from predicting structures toward actually discovering molecules. The researchers used an AlphaFold-predicted structure of CDK20 together with an AI-powered drug-discovery platform to identify novel small-molecule inhibitors. Note the two platforms that are used in this project: PandaOmics and Chemistry42 are commercial.
+
+#### Paper 11: A machine learning model using clinical notes to identify physician fatigue (Nature Communications, 2025)
+
+**Link:** [Nature Communications paper](https://doi.org/10.1038/s41467-025-60865-4)
+
+**Why pick the paper?** This paper is a useful example of applying machine learning to real-world clinical text and to an important human-factors problem. The authors trained a model on clinical notes from 129,228 emergency-department visits to identify notes written in high-fatigue settings, using recent shift patterns as a proxy for physician fatigue. Higher predicted fatigue was associated with differences in clinical decision-making, including a lower yield of diagnostic testing for heart attacks. It provides a concrete case for discussing proxy labels, clinical text representation, confounding, privacy, and the difference between detecting a pattern and proving causation.
+
+#### Paper 12: Clinicians vs. artificial intelligence in patient outcome prediction in the intensive care unit (npj Digital Medicine, 2026)
+
+**Link:** [npj Digital Medicine paper](https://doi.org/10.1038/s41746-026-03132-0)
+
+**Why pick the paper?** This study directly compares clinicians with artificial intelligence algorithms for predicting patient outcomes in the intensive care unit. It combines retrospective and prospective evaluations across 15 adult ICUs in Alberta, Canada, allowing students to consider both benchmark performance and prediction in a live clinical setting. The paper is a strong starting point for discussing calibration, generalizability, human-AI comparison, prospective validation, and whether predictive accuracy alone is enough to improve patient care.
+
 **Last Updated**: 2026-08-13
