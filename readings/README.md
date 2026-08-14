@@ -55,6 +55,8 @@ Evo 2 was trained on approximately **9 trillion DNA base pairs across all domain
 
 scGPT treats genes and their expression measurements somewhat analogously to tokens and their associated information in language models. Pretraining on very large collections of single-cell data enables the model to be transferred to tasks including cell-type annotation, batch integration, perturbation prediction and multi-omics analysis. It provides an intuitive example for students of how the same **pretraining → representation learning → downstream adaptation** paradigm can be applied to cellular rather than sequence data.
 
+**What to learn?** How models are evaluated (the metrics)? What are the protein understanding benchmarks?
+
 #### Paper 9: Protein embedding based alignment (BMC Bioinformatics)
 
 **Link:** [BMC Bioinformatics paper](https://doi.org/10.1186/s12859-024-05699-5)
