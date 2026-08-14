@@ -1,4 +1,4 @@
-# CB2: AI-Enhanced Computational Biology Course
+# Bio2: AI-Enhanced Introduction to Bioinformatics Course
 
 A redesigned computational biology course leveraging AI models for problem-solving and AI-assisted programming.
 
