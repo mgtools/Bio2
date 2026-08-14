@@ -1,4 +1,4 @@
-# Chapter 3: RNA-seq: Theory and Practice
+# RNA-seq: Theory and Practice
 
 ## Learning Objectives
 
@@ -459,4 +459,4 @@ where $\phi$ = dispersion, $\mu$ = mean count, $z_\alpha$ = 1.96 for α=0.05.
 
 ---
 
-**Navigation**: [← Previous: Sequencing Overview](./02-sequencing-overview.md) | [Next: Single-Cell RNA-seq Technologies →](./04-scrna-technologies.md)
+**Navigation**: [← Previous: Sequencing Overview](./sequencing-overview.md) | [Next: Single-Cell RNA-seq Technologies →](./scrna-technologies.md)

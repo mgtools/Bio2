@@ -1,4 +1,4 @@
-# Chapter 2: High-Throughput Sequencing Overview
+# High-Throughput Sequencing Overview
 
 ## Learning Objectives
 
@@ -488,4 +488,4 @@ Budget and timeline constraints?
 
 ---
 
-**Navigation**: [← Previous: Molecular Biology Fundamentals](./01-molecular-biology-fundamentals.md) | [Next: RNA-seq Basics →](./03-bulk-rnaseq-basics.md)
+**Navigation**: [← Previous: Molecular Biology Fundamentals](./molecular-biology-fundamentals.md) | [Next: RNA-seq Basics →](./bulk-rnaseq-basics.md)

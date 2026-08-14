@@ -1,4 +1,4 @@
-# Chapter 4: Single-Cell RNA-seq Technologies
+# Single-Cell RNA-seq Technologies
 
 ## Learning Objectives
 
@@ -11,7 +11,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## 4.1 Why Single-Cell Transcriptomics?
+## Why Single-Cell Transcriptomics?
 
 ### The Limitation of Bulk RNA-seq
 
@@ -47,7 +47,7 @@ $$\text{Transcriptome}_{\text{cell }} \to \text{Identifies cell type/state from 
 
 ---
 
-## 4.2 Droplet-Based Methods: The 10x Revolution
+## Droplet-Based Methods: The 10x Revolution
 
 ### Overview
 
@@ -132,7 +132,7 @@ With UMI:
 
 ---
 
-## 4.3 Other Major Platforms
+## Other Major Platforms
 
 ### Plate-Based Methods
 
@@ -184,7 +184,7 @@ With UMI:
 
 ---
 
-## 4.4 Long-Read Single-Cell Methods (Emerging)
+## Long-Read Single-Cell Methods (Emerging)
 
 ### Why Long-Read for Single Cells?
 
@@ -209,7 +209,7 @@ With UMI:
 
 ---
 
-## 4.5 Key Metrics for Platform Comparison
+## Key Metrics for Platform Comparison
 
 ### Throughput
 - **Cells per run:** 100s (plate) to 100,000s (droplets)
@@ -243,7 +243,7 @@ With UMI:
 
 ---
 
-## 4.6 Experimental Design Considerations
+## Experimental Design Considerations
 
 ### Choosing a Platform
 
@@ -282,7 +282,7 @@ Goal: Surface protein + transcriptome?
 
 ---
 
-## 4.7 Batch Integration & Technology Transfer
+## Batch Integration & Technology Transfer
 
 ### Batch Effects in scRNA-seq
 
@@ -306,11 +306,11 @@ Computational methods to correct batch effects:
 
 **Key principle:** Match cells across batches that are similar in expression; correct batch shifts
 
-*More details in Chapter 6 (Batch Correction).*
+*More details in the Batch Correction section.*
 
 ---
 
-## 4.8 Quality Control at Platform Level
+## Quality Control at Platform Level
 
 ### Pre-Sequencing QC (Cell-Level)
 
@@ -327,7 +327,7 @@ Computational methods to correct batch effects:
 
 ### Post-Sequencing QC (Dataset-Level)
 
-*Detailed in Chapter 5, but preview here:*
+*Detailed in the Quality Control section, but preview here:*
 
 - **Sequencing metrics:**
   - Per-barcode read distribution
@@ -402,4 +402,4 @@ Computational methods to correct batch effects:
 
 ---
 
-**Navigation**: [← Previous: Bulk RNA-seq Basics](./03-bulk-rnaseq-basics.md) | [Next: Quality Control & Preprocessing →](./05-qc-preprocessing.md)
+**Related**: [Bulk RNA-seq Basics](./bulk-rnaseq-basics.md)

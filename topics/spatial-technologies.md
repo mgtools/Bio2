@@ -1,4 +1,4 @@
-# Chapter 11: Spatial Transcriptomics: Technologies & Methods
+# Spatial Transcriptomics: Technologies & Methods
 
 ## Learning Objectives
 

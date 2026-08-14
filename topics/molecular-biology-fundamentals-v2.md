@@ -1,4 +1,4 @@
-# Chapter 1: Molecular Biology Fundamentals for Computational People
+# Molecular Biology Fundamentals for Computational People
 
 ## Learning Objectives
 
@@ -522,4 +522,4 @@ Different cell types have **different transcriptional configurations:**
 
 ---
 
-**Navigation**: [← Introduction](../README.md) | [Next: High-Throughput Sequencing Overview →](./02-sequencing-overview.md)
+**Navigation**: [← Introduction](../README.md) | [Next: High-Throughput Sequencing Overview →](./sequencing-overview.md)
