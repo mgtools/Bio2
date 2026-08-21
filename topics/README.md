@@ -50,9 +50,3 @@ Lecture slides:
 - GenAI as learning aide
 - GenAI as coding assistant
 - GenAI as discovery aide
-
-### Examples 
-1. Read `lecture_notes.md`
-2. Work through `notebook.ipynb`
-3. Complete `assignment.md`
-4. Review `resources.md` for deeper learning
