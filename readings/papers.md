@@ -1,9 +1,6 @@
 # Readings
 
-This folder contains reading materials, references, and supplementary documentation for the CB2 course.
-
-## Bioinformatics Fundamentals
-- a free molecular primer biology textbook (for students who need a bit catch up with biology)
+This folder contains reading materials, references, and supplementary documentation for the Introduction to Bioinformatics course.
 
 ## Scientific papers and articles (recent breakthroughs) -- for literature presentation by students
 #### Paper 1: Protein-templated synthesis of dinucleotide repeat DNA by an antiphage reverse transcriptase
