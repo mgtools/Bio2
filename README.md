@@ -6,7 +6,7 @@ A redesigned bioinformatics course, covering recent AI advances in bioinformatic
 
 ```
 ├── datasets/                         # Datasets and data documentation
-├── labs/                             # Hands-on computational biology labs
+├── labs/                             # Hands-on labs
 ├── notebooks/                        # Jupyter notebooks for interactive learning
 ├── readings/                         # Scientific papers and supplementary readings
 ├── setup/                            # Dependencies and environment configuration
