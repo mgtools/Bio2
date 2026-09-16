@@ -20,9 +20,7 @@ The repository currently includes:
 - **Notebooks** - Python, protein structure prediction, RNA foundation model, and assessment notebooks
 - **Readings** - Foundational and recent scientific papers, plus supplementary readings
 
-See the [textbook status and guide](textbook/STATUS_AND_GUIDE.md) and the [notebooks README](notebooks/README.md) for more detail.
-
-## A linux server (silo) available for students to practice their bioinformatics stills.
+## A linux server (silo) available for students to practice their bioinformatics skills.
 - A shared Bio2 environment is created for the class
 - Bio2 includes all the common bio modules (like biopython) and commands (like blast, mmseq2)
 
