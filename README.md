@@ -22,6 +22,10 @@ The repository currently includes:
 
 See the [textbook status and guide](textbook/STATUS_AND_GUIDE.md) and the [notebooks README](notebooks/README.md) for more detail.
 
+## A linux server (silo) available for students to practice their bioinformatics stills.
+- A shared Bio2 environment is created for the class
+- Bio2 includes all the common bio modules (like biopython) and commands (like blast, mmseq2)
+
 ## Key Features
 
 ✨ **AI-Powered Learning**
@@ -32,4 +36,5 @@ See the [textbook status and guide](textbook/STATUS_AND_GUIDE.md) and the [noteb
 - Hands-on coding exercises
 - Real-world biological datasets (NCBI genomes, expression data, scRNA data)
 - Commonly used bioinformatics tools (e.g., BLAST) and pipelines (e.g., for RNAseq data analysis)
+- Practice different ways of implementation and using tools (VS Code, command lines, Vibe programming) 
 
